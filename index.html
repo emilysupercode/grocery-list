@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Bonus 2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="border">
+            <h1>My Grocery List</h1>
+            <ol id="groceryList">
+
+            </ol>
+            <form onsubmit="return false;">
+                <input type="text" id="newListItem">
+                <section>
+                    <button type="button" onclick="addItem()">add item</button>
+                    <button type="button" onclick="removeItem()">remove last item</button>
+                </section>
+
+            </form>
+            <p id="deletedItem"></p>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

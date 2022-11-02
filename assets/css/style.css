@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+main {
+    background-color: #fdd2bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main section.border {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #012443;
+    border-radius: 10px;
+}
+
+main section h1 {
+    font-size: 3rem;
+    color: #b61919;
+}
+
+main section ol {
+    align-self: flex-start;
+    padding: 5px 15px;
+}
+
+main section ol li {
+    font-size: 1.6rem;
+    color: #ff6b6b;
+}
+
+main section form {
+    margin-top: 30px;
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-start;
+}
+
+main section form input {
+    /* margin: 5px 0 0 0; */
+    border-radius: 10px;
+    border: 1px solid #012443;
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 50%;
+}
+
+main section form button {
+    background-color: #012443;
+    color: #fdd2bf;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: 1px solid #012443;
+    border-radius: 10px;
+    margin: 0 10px 10px 10px;
+}
+
+main section form button:hover {
+    color: #012443;
+    background-color: #fdd2bf;
+    cursor: pointer;
+}
+
+main section p {
+    font-size: 1.2rem;
+    color: #b61919;
+    align-self: flex-start;
+    font-style: italic;
+}
